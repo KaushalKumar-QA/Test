@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LendDirect" >
+	<test name="SingleTest_Treasury">
+		<classes>
+			<class name="com.Treasury.tests.SingleTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="PortfolioTest_Treasury">
+		<classes>
+			<class name="com.Treasury.tests.PortfolioTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

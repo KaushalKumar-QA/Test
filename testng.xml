@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LendDirect">
+	<parameter name="Browser" value="Chrome" />
+
+	<test name="LoginTest_Administration">
+		<classes>
+			<class name="com.Administration.tests.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="PipelineTest_Pipeline">
+		<classes>
+			<class name="com.Pipeline.tests.PipelineTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="NewLoanTest_Loans">
+		<classes>
+			<class name="com.Loans.NewLoan.tests.NewLoanTest" />
+		</classes>
+	 </test> <!-- Test -->
+	 <test name="NewLoanLiveTest_Loans">
+		<classes>
+			<class name="com.Loans.NewLoan.tests.NewLoanLiveTest" />
+		</classes>
+	  </test> <!-- Test -->
+	  <test name="NewLoanOverdueOrEnforcedTest_Loans">
+		<classes>
+			<class name="com.Loans.NewLoan.tests.NewLoanOverdueOrEnforcedTest" />
+		</classes>
+	   </test> <!-- Test -->
+	   <test name="DatabaseTest_Loans">
+		<classes>
+			<class name="com.Loans.NewLoan.tests.DatabaseTest" />
+		</classes>
+	   </test> <!-- Test -->
+	   
+	   <test name="InterestPaymentStep1Test_Funding">
+		<classes>
+			<class name="com.Funding.InterestPayment.tests.InterestPaymentStep1Test" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="InterestPaymentStep2Test_Funding">
+		<classes>
+			<class name="com.Funding.InterestPayment.tests.InterestPaymentStep2Test" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="InterestPaymentStep3Test_Funding">
+		<classes>
+			<class name="com.Funding.InterestPayment.tests.InterestPaymentStep3Test" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="InterestPaymentStep4Test_Funding">
+		<classes>
+			<class name="com.Funding.InterestPayment.tests.InterestPaymentStep4Test" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="InterestPaymentStep5Test_Funding">
+		<classes>
+			<class name="com.Funding.InterestPayment.tests.InterestPaymentStep5Test" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="CalculateInterestTest_Funding">
+		<classes>
+			<class name="com.Funding.tests.CalculateInterestTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="CalculateInterestRunScriptTest_Funding">
+		<classes>
+			<class name="com.Funding.tests.CalculateInterestRunScriptTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="FundingDatabaseTest_Funding">
+		<classes>
+			<class name="com.Funding.tests.FundingDatabaseTest" />
+		</classes>
+	</test> <!-- Test -->	
+	<test name="FundingNewFacilityTest_Funding">
+		<classes>
+			<class name="com.Funding.tests.NewFacilityTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="SingleTest_Treasury">
+		<classes>
+			<class name="com.Treasury.tests.SingleTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="PortfolioTest_Treasury">
+		<classes>
+			<class name="com.Treasury.tests.PortfolioTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="DatabaseTest_Treasury">
+		<classes>
+			<class name="com.Treasury.tests.DatabaseTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="ManagementAccountsTest_Funding">
+		<classes>
+			<class name="com.Funding.tests.ManagementAccountsTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

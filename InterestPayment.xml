@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LendDirect" >
+		<test name="InterestPaymentStep1Test_Funding">
+		<classes>
+			<class name="com.Funding.InterestPayment.tests.InterestPaymentStep1Test" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="InterestPaymentStep2Test_Funding">
+		<classes>
+			<class name="com.Funding.InterestPayment.tests.InterestPaymentStep2Test" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="InterestPaymentStep3Test_Funding">
+		<classes>
+			<class name="com.Funding.InterestPayment.tests.InterestPaymentStep3Test" />
+		</classes>
+	</test> <!-- Test -->
+		<test name="InterestPaymentStep4Test_Funding">
+		<classes>
+			<class name="com.Funding.InterestPayment.tests.InterestPaymentStep4Test" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="InterestPaymentStep5Test_Funding">
+		<classes>
+			<class name="com.Funding.InterestPayment.tests.InterestPaymentStep5Test" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

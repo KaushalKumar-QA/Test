@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LendDirect" >
+	<test name="NewLoanTest_Loans">
+		<classes>
+			<class name="com.Loans.NewLoan.tests.NewLoanTest" />
+		</classes>
+	 </test> <!-- Test -->
+	 <test name="NewLoanLiveTest_Loans">
+		<classes>
+			<class name="com.Loans.NewLoan.tests.NewLoanLiveTest" />
+		</classes>
+	  </test> <!-- Test -->
+	  <test name="NewLoanOverdueOrEnforcedTest_Loans">
+		<classes>
+			<class name="com.Loans.NewLoan.tests.NewLoanOverdueOrEnforcedTest" />
+		</classes>
+	   </test> <!-- Test -->
+	   <test name="DatabaseTest_Loans">
+		<classes>
+			<class name="com.Loans.NewLoan.tests.DatabaseTest" />
+		</classes>
+	   </test> <!-- Test -->
+</suite> <!-- Suite -->

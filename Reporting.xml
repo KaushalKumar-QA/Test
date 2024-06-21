@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LendDirect" >
+	
+	<test name="BalanceSheet_Reporting">
+		<classes>
+			<class name="com.Reporting.tests.BalanceSheetTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="UpdatesTest_Reporting">
+		<classes>
+			<class name="com.Reporting.tests.UpdatesTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="UpdatesRunScriptTest_Reporting">
+		<classes>
+			<class name="com.Reporting.tests.UpdatesRunScriptTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="LoansTest_Reporting">
+		<classes>
+			<class name="com.Reporting.tests.LoansTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+</suite> <!-- Suite -->

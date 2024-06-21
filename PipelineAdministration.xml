@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LendDirect" >
+	 <test name="PipelineTest_Pipeline">
+		<classes>
+			<class name="com.Pipeline.tests.PipelineTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="LoginTest_Administration">
+		<classes>
+			<class name="com.Administration.tests.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
